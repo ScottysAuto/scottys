@@ -1,0 +1,90 @@
+body {
+	background-color: #d04848;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	margin: 0 auto;
+}
+
+header {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+h1 { 
+				font-size: 1.5em;
+				font-family: cursive;
+				z-index: 1;
+				color: #000;
+position: relative;
+		left: -200px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 2s;
+	animation: slide 0.5s forwards;
+	animation-delay: 0.1s;
+}
+
+.logo {
+  position: relative;
+	left: -200px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 2s;
+	animation: slide 0.5s forwards;
+	animation-delay: 0.1s;
+
+	height: 50px;
+	margin-right: 10px;
+}
+
+.front {
+	background-color: #fde767;
+	padding: auto;
+	margin: auto;
+	display: block;
+	width: 100%;
+	position: relative;
+	left: +200px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 2s;
+	animation: slide 0.5s forwards;
+	animation-delay: 0.1s;
+
+}
+
+.testimonials {
+	background-color: #fde767;
+}
+
+footer {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fde767;
+}
+
+button {
+	background-color: #d04848;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+@-webkit-keyframes slide {
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes slide {
+	100% {
+		left: 0;
+	}
+}

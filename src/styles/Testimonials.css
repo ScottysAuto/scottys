@@ -1,0 +1,25 @@
+.testimonial {
+	width: 20%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+span:hover {
+				transform: scale(1.1);
+				transition: 0.5s;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.testimonials {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	left: -200px;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 2s;
+	animation: slide 0.5s forwards;
+	animation-delay: 0.1s;
+}
+
