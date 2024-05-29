@@ -1,0 +1,34 @@
+nav {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  left: -200px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.1s;
+  padding: 1em;
+  height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  color: var(--red);
+}
+
+nav ul li {
+  padding: 1em;
+}
+nav ul li a {
+  color: var(--red);
+  &:hover {
+					color: var(--red);
+    padding: 1em;
+    background-color: var(--black);
+    border-radius: 9px;
+  }
+}

@@ -1,0 +1,9 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+body {
+
+	background-image: linear-gradient(var(--black), var(--red), var(--yellow));
+}

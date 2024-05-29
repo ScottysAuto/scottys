@@ -1,0 +1,17 @@
+* {
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --black: rgb(12, 12, 12);
+  --yellow: #fde767;
+  --red: #d04848;
+  font-family: system-ui, helvetica;
+
+
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
